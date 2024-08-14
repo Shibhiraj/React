@@ -1,0 +1,8 @@
+.show-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+  }

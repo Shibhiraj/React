@@ -1,0 +1,38 @@
+.footer {
+    background-color: #21023f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: 3px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10%; */
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0 0 0;
+}
+
+.footer li {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer li:hover {
+    color: #61dafb;
+}
+p{
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+p:hover{
+    color: #61dafb;
+}
+a{
+    color:white;
+}

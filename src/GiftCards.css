@@ -1,0 +1,35 @@
+.gift-cards {
+    padding: 30px;
+  }
+  
+  .gift-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .gift-card {
+    border: 1px solid #091994;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 200px;
+    border-width: 2px;
+  }
+  
+  .gift-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .gift-card h3 {
+    margin: 10px 0;
+  }
+  
+  .gift-card p {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

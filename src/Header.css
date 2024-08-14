@@ -1,0 +1,44 @@
+.header {
+    background-color: #21023f;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 1.5rem;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-nav li {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .header-nav li:hover {
+    color: #61dafb;
+  }
+  
+    .signbtn{
+        background-color: #20c16e;
+        border-radius: 9px;
+    }
+    .signbtn:hover{
+    color: #0b1415;
+    background-color: #dd188b;
+}
+.nav{
+    background-color: #20c16e ;
+    border-radius: 9px;
+}
+.nav:hover{
+    background-color: aqua;
+    color: #21023f;
+}
